@@ -1,0 +1,23 @@
+Create a single-page, fully interactive, and modern AI Video Editor Web Application (HTML, CSS, JavaScript using Tailwind CSS) that will be hosted on GitHub Pages.
+
+### Layout & Design Guidelines:
+1. RTL Support & Urdu Interface: The UI should be right-to-left aligned with elegant Urdu typography and a clean modern dark-mode aesthetic (slate/zinc dark background with subtle neon green/blue accents).
+2. Navigation Bar: Header with site logo ("AI ویڈیو ایڈیٹر"), active status indicator, and dark mode feel.
+3. Main Editor Layout:
+   - Left Panel (Control Panel): 
+     - Video Upload Section: File input with drag-and-drop zone for MP4/MOV videos, with live preview.
+     - Background Editing: Toggle for background removal, preset backgrounds (Studio, Nature, Cyberpunk), or custom background image upload.
+     - Character & Face Swap: Upload new face/character reference image, option to tweak facial features.
+     - Outfit & Clothing Editor: Text input for outfit prompt (e.g., "سیاہ سوٹ اور ٹائی", "روایتی کرتہ"), color picker, and style presets.
+     - Action Buttons: "ویڈیو پروسیس کریں" (Process Video) button with loading state animation.
+   - Right Panel (Preview & Output):
+     - Interactive Original vs Edited Video player.
+     - Dynamic progress bar showing status: "فریمز پروسیس ہو رہے ہیں...", "AI ماڈل اپلائی ہو رہا ہے..."
+     - Download Button for the final edited video.
+4. Settings / API Config Modal: A hidden settings panel where users can paste their Replicate / Hugging Face API keys to process real videos via serverless APIs.
+
+### Code Requirements:
+- Pure HTML5, Tailwind CSS (via CDN), and vanilla JavaScript.
+- Fully responsive (mobile and desktop compatible).
+- Clean, structured, well-commented code.
+- Demo mode with fallback mock video rendering so the interface works visually even without an active API key.
